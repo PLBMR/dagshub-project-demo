@@ -59,3 +59,7 @@ docs/_build/
 target/
 
 dagshub-project-demo-env
+
+# vim stuff
+*.swp
+*.swo

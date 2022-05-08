@@ -3,8 +3,13 @@
     https://<access token>@dagshub.com/path/to/your/repo.git
 - Note: only https-level authorization, no SSH-level cloning
 - Uses DagsHub storage for storing models, data
+- Some issue with DVC requires me to downgrade to dvc==2.3.0
+    -- https://discord.com/channels/698874030052212737/705302775784800278/890961327462416435
+- Some issue installing the particular version of Numpy
 - Question:
     -- Does DVC support Model and Data Storage Management on S3 Buckets?
         --- Yes it does!
         --- https://dagshub.com/docs/integration_guide/set_up_remote_storage_for_data_and_models/
     -- What are the storage limits of DagsHub Storage?
+- Potential Issues to raise on DagsHub repo:
+    -- issue with numpy dependency in the tutorial

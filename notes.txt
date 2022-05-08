@@ -22,6 +22,35 @@
         --- Yes it does!
         --- https://dagshub.com/docs/integration_guide/set_up_remote_storage_for_data_and_models/
     -- What are the storage limits of DagsHub Storage?
+        --- Up to 10GB of DAGsHub Storage for free model
+        --- 1 TB for team model
+        --- Unlimited for Enterprise quote
     -- What are these added blue columns to the experiment set?
 - Potential Issues to raise on DagsHub repo:
     -- issue with numpy dependency in the tutorial
+- Pricing Model:
+    -- $0 for all public repos
+    -- $0 for all private repos with up to 2 additional collaborators
+    -- $49 for team subscription to get unlimited collaborators, 1 TB of
+        DAGsHub storage
+    -- Enterprise custom quote for anoything more
+- Key Takeaways:
+    -- Use Git to version your code, DVC to version your data
+    -- Need to first git commit data.dvc, before committing your data via DVC
+    -- An experiment is tagged to a commit
+    -- We assume your best model sits in the master branch, and when you want
+        to try a new experiment, you branch off of master for an experiment
+    -- For DVC on DagsHub storage, Data does not look to be versioned by the
+        code that created it
+- How are models saved and versioned?
+- Why DagsHub: https://dagshub.com/docs/faq/
+    - DagsHub is a web platform for data version control and collaboration for
+        data scientists and machine learning engineers.
+    - Git is not good at versioning large files
+    - git-lfs is an extension to git that can be used to version large files,
+        but they don't version the data pipeline.
+    - DagsHub is basically a UI on top of the Git-DVC source control flow
+    - DagsHub represents each node as a file, with important details and a
+        direct link to the file itself
+
+

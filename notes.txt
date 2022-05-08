@@ -14,6 +14,9 @@
     -- DagsHub Logger looks to be agnostic to the list of hyperparameters
         established for your model
     -- Model experiment is tied to a commit
+- Testing a new hypothesis
+    -- Creating a new benchmark model to compare is typically represented as a
+        new branch
 - Question:
     -- Does DVC support Model and Data Storage Management on S3 Buckets?
         --- Yes it does!

@@ -8,8 +8,7 @@ print(M_PRO_INIT, '\n' + M_PRO_LOAD_DATA)
 data = pd.read_csv(RAW_DATA_PATH)
 
 print(M_PRO_RMV_PUNC)
-clean_text = data[TEXT_COL_NAME].map(lambda x: x.lower().replace('\n', '').\
-                                     translate(str.maketrans('', '', string.punctuation)))
+clean_text = data[TEXT_COL_NAME].map(lambda x: x.lower().replace('\n', ''))
 
 print(M_PRO_LE)
 y = data[TARGET_COL].map({CLASS_0: 0, CLASS_1: 1})

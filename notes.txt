@@ -1,0 +1,4 @@
+- No Private-Public Key Encryption
+- To use an access token for git cloning, use this address:
+    https://<access token>@dagshub.com/path/to/your/repo.git
+- Note: only https-level authorization, no SSH-level cloning

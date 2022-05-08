@@ -28,3 +28,4 @@ M_MOD_INIT = '[DEBUG] Initialize Modeling'
 M_MOD_LOAD_DATA = '     [DEBUG] Loading data sets for modeling'
 M_MOD_RFC = '     [DEBUG] Runing Random Forest Classifier'
 M_MOD_SCORE = '     [INFO] Finished modeling with AUC Score:'
+ROUND_LEV = 3

@@ -63,3 +63,4 @@ dagshub-project-demo-env
 # vim stuff
 *.swp
 *.swo
+/data

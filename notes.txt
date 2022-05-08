@@ -2,3 +2,9 @@
 - To use an access token for git cloning, use this address:
     https://<access token>@dagshub.com/path/to/your/repo.git
 - Note: only https-level authorization, no SSH-level cloning
+- Uses DagsHub storage for storing models, data
+- Question:
+    -- Does DVC support Model and Data Storage Management on S3 Buckets?
+        --- Yes it does!
+        --- https://dagshub.com/docs/integration_guide/set_up_remote_storage_for_data_and_models/
+    -- What are the storage limits of DagsHub Storage?

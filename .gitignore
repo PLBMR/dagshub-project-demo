@@ -58,3 +58,9 @@ docs/_build/
 # PyBuilder
 target/
 
+dagshub-project-demo-env
+
+# vim stuff
+*.swp
+*.swo
+/data
